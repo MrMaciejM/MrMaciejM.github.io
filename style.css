@@ -1,0 +1,112 @@
+:root {
+  --dpurple: rgb(101, 0, 101);
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  color: black;
+}
+img {
+  border: black 2px solid;
+  border-radius: 15%;
+  margin: 5px;
+  cursor: pointer;
+}
+img:hover {
+  /* background-color: white; */
+  opacity: 0.6;
+}
+
+/****** SECTION 1 - INTRO ******/
+
+.intro {
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.intro-para {
+  /* border: solid 2px yellow; */
+  font-weight: 600;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0px;
+  padding-bottom: 8px;
+  color: white;
+}
+.intro-para2 {
+  font-weight: 600;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  color: white;
+}
+p {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-top: 7px;
+  margin-left: 30px;
+  padding: 3px;
+  -webkit-transition: background-color 0.4s ease-out;
+  border-radius: 6px;
+  /* border: solid 2px yellow; */
+}
+a:hover {
+  background-color: var(--dpurple);
+  -webkit-transition: background-color 0.3s ease-in;
+  border-radius: 6px;
+  padding-bottom: 3px;
+  border: 8px;
+}
+.navbar-div {
+  /* div containing the links */
+  /* border: solid 2px yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-right: 300px;
+  padding-left: 100px;
+  margin-bottom: 3%;
+  margin-left: 21%;
+}
+
+/****** SECTION 2 - PROJECTS ******/
+
+.projects {
+  background-color: aliceblue;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 200px;
+  padding-top: 55px;
+  margin-bottom: 200px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.project-para {
+  /* this is the <p> underneath project images */
+  text-align: center;
+  margin: auto;
+  cursor: default;
+}
+
+/****** SECTION 3 - IT Work ******/
+.IT-Work {
+  padding-bottom: 800px;
+}
